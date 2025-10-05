@@ -1,16 +1,32 @@
-# news_app
+# News App Flutter
 
-A new Flutter project.
+This application, developed with Flutter, is a news app built using **Clean Architecture** and **Bloc State Management**. News articles are fetched from the **News API**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- **News Listing**: Displays the latest news on the home page.
+- **Search**: Users can search news by title.
+- **Bloc Usage**: The app uses Bloc/Cubit to fetch and manage news.
+- **Clean Architecture**: 
+  - **Presentation**: UI and Bloc/Cubit layer
+  - **Domain**: UseCase and Repository contracts
+  - **Data**: Remote and Local data sources
+- **Responsive Design**: Optimized for mobile screens.
+- **Theme Support**: Light and Dark Mode (optional).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies Used
+
+- Flutter
+- Dart
+- Bloc & Flutter Bloc
+- GetIt (Dependency Injection)
+- News API
+- Clean Architecture Principles
+
+---
+
+## 📂 Project Structure
